@@ -11,18 +11,22 @@ const HomePage = () => {
         <Pressable onPress={()=>navigation.navigate("Details")}>
           <Text>Move to detail Screen</Text>
         </Pressable>
-        <Pressable onPress={()=>navigation.navigate("Jobs")}>
-          <Text>Go to Job Posting Screen</Text>
-        </Pressable>
-        <Pressable onPress={()=>navigation.navigate("Profile")}>
+                <Pressable onPress={()=>navigation.navigate("Profile")}>
           <Text>Profile page</Text>
         </Pressable>
+
         <Pressable onPress={()=>navigation.navigate("Group")}>
-          <Text>Group details screen page</Text>
+          <Text>Move to Group Details</Text>
         </Pressable>
-        <Pressable onPress={()=>navigation.navigate("Community")}>
-          <Text>Go to community page</Text>
+
+
+        <Pressable onPress={()=>navigation.navigate("Price")}>
+          <Text>Price page</Text>
         </Pressable>
+        
+      
+
+        
       </View>
     // </SafeAreaView>
   )
